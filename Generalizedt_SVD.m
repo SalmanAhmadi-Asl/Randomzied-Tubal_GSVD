@@ -8,7 +8,7 @@ R=50;
 for i=1:M
 for j=1:P
     for k=1:n
-A(i,j,k)=1/(sqrt(i^2+j^2+k^2));
+A(i,j,k)=1/((i^2+j^2+k^2)^(1/2));
     end
 end
 end
@@ -16,7 +16,7 @@ end
 for i=1:n
 for j=1:M
     for k=1:P
-        B(i,j,k)=1/(sqrt(i^2+j^2+k^2));
+        B(i,j,k)=1/((i^2+j^2+k^2)^(1/2));
     end
 end
 end
