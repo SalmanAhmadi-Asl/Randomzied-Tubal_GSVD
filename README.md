@@ -1,4 +1,4 @@
-# Tubal_GSVD
+# Randomized Tubal_GSVD
 
 This repository provides the codes for the computation of the randomized tubal GSVD of tensors. 
 It is necessary to use some functions of the following toolbox:
