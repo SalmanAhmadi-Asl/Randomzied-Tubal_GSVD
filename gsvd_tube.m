@@ -11,8 +11,8 @@ for i = halfn3+1 : n
         U(:,:,i) = conj(U(:,:,n+2-i));
         V(:,:,i) = conj(V(:,:,n+2-i));
         X(:,:,i) = conj(X(:,:,n+2-i));
-        C(:,:,i) = conj(C(:,:,n+2-i));
-        S(:,:,i) = conj(S(:,:,n+2-i));
+        C(:,:,i) = C(:,:,n+2-i);
+        S(:,:,i) = S(:,:,n+2-i);
 end
 
 U_1=ifft(U,[],3);
